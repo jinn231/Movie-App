@@ -1,0 +1,9 @@
+.show_eff{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.hide_eff{
+    opacity: 0;
+    transform: translateY(20%);
+}

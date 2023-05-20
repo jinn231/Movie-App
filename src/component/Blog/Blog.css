@@ -1,0 +1,25 @@
+#dynamic-text{
+    animation: moving_txt 1s infinite alternate-reverse;
+    /* writing-mode: vertical-lr; */
+    background-color: #042a2b;
+    -webkit-text-stroke-color: silver;
+}
+
+#eff_line{
+    width: 5px;
+    height: 200%;
+    right: 50%;
+    border-radius: 10px;
+    background-color: white;
+    position: absolute;
+}
+
+@keyframes moving_txt{
+    0%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(100px);
+    }
+}
+

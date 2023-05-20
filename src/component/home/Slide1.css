@@ -1,0 +1,26 @@
+#dyanmic_text{
+    -webkit-text-stroke: 1px gray ;
+}
+
+#dyanmic_text::after{
+    content: "";
+    top: 0;
+    bottom:0;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    border-left: 1px solid greenyellow;
+    background-color: #042a2b;
+    position: absolute;
+    animation: typing 4s infinite alternate-reverse;
+}
+
+@keyframes typing{
+    0%{
+        left: 0%;
+    }
+    100%{
+        left: 100%;
+    }
+}
+
